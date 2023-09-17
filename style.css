@@ -24,6 +24,7 @@ nav{
     color: #F2C14E;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+    margin-top: 30px;
 }
 
 button {
@@ -78,6 +79,12 @@ button:hover {
     transition: width 1s ease-in-out;
 }
 
+.gameover-img img{
+    width: 0;
+    margin-left: 20px;
+    transition: width 1s ease-in-out;
+}
+
 .boxtext{
     color: #F2C14E;
 }
@@ -96,8 +103,4 @@ button:hover {
 
 .bt-0{
     border-top: 0;
-}
-
-.tie{
-    display: none;
 }
